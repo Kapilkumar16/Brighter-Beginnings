@@ -6,6 +6,7 @@
     <title>Logic Building</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="logic.css">
   </head>
   <body>
     <section
@@ -63,19 +64,48 @@
                 </ul>
               </nav>
             </div>
-            <svg
-              class="ml-4 w-10 h-10 cursor-pointer transform hover:scale-125 text-gray-500 transition-transform duration-300 active:text-white ease-in-out"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
+            <div class="dropdown">
+              <button class="dropbtn">
+
+                <svg
+                  class="ml-4 w-10 h-10 cursor-pointer transform hover:scale-125 text-gray-500 transition-transform duration-300 active:text-white ease-in-out"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </button>
+              <div class="dropdown-content">
+                <!-- <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a> -->
+                <div class="flex items-center gap-1 sm:gap-4">
+                  <div class="sm:flex sm:gap-4">
+                    <button
+                      id="login"
+                      class="relative -top-1 -left-1 rounded-2xl border bg-transparent py-2 px-5 font-medium text-blue transition-all before:absolute before:top-1 before:left-1 before:-z-[1] before:h-full border-blue-600 before:w-full before:border-0 before:transition-all hover:bg-blue-600 before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0"
+                      href="login.html"
+                    >
+                      Login
+                    </button>
+  
+                    <div class="hidden sm:flex">
+                      <a
+                        class="relative -top-1 -left-1 rounded-2xl border bg-transparent py-2 px-5 font-medium text-blue transition-all before:absolute before:top-1 before:left-1 before:-z-[1] before:h-full border-blue-600 before:w-full before:border-0 before:transition-all hover:bg-blue-600 before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0"
+                        href="register.html"
+                      >
+                        Register
+                      </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
       </header>
@@ -165,6 +195,49 @@
                   <div class="p-2 pt-2 pb-1">Sudoku: A classic number puzzles for a quick mental workout.</div>
                 </div>
               </li>
+              <li
+                class="mb-6 w-full hover:scale-105 ease-in-out duration-300 p-5 sm:h-5/6 sm:w-1/3 lg:w-1/3"
+              >
+                <div
+                  class="max-h-max w-full rounded-xl cursor-pointer flex-col justify-center items-center font-medium text-xl transition-transform duration-300 ease-in-out"
+                >
+                  <div class="h-96 w-full m-auto">
+                    <a href="https://poki.com/en/g/combat-online"
+                      ><img
+                        src="asset/CSGo.png"
+                        alt="thumbmail-2"
+                        class="m-auto h-full object-center object-contain items-center rounded-xl sm:w-full md:w-full lg:w-full"
+                    /></a>
+                  </div>
+                  <div class="p-2 pt-3 pb-1 underline underline-offset-4">
+                    <a href="https://poki.com/en/g/combat-online">COMBAT ONLINE</a>
+                  </div>
+                  <div class="p-2 pt-2 pb-1">"Combat Online" is a specific game that has been released, I recommend checking the official website, gaming platform for the most accurate and up-to-date information. </div>
+                </div>
+              </li>
+
+              <!-- Game -05 -->
+            </li>
+            <li
+              class="mb-6 w-full hover:scale-105 ease-in-out duration-300 p-5 sm:h-5/6 sm:w-1/3 lg:w-1/3"
+            >
+              <div
+                class="max-h-max w-full rounded-xl cursor-pointer flex-col justify-center items-center font-medium text-xl transition-transform duration-300 ease-in-out"
+              >
+                <div class="h-96 w-full m-auto">
+                  <a href="https://poki.com/en/g/subway-surfers"
+                    ><img
+                      src="asset/subway.png"
+                      alt="thumbmail-2"
+                      class="m-auto h-full object-center object-contain items-center rounded-xl sm:w-full md:w-full lg:w-full"
+                  /></a>
+                </div>
+                <div class="p-2 pt-3 pb-1 underline underline-offset-4">
+                  <a href="https://poki.com/en/g/subway-surfers"> SUBWAY SURFERS</a>
+                </div>
+                <div class="p-2 pt-2 pb-1">Subway Surfers" is an exciting and fast-paced endless runner game set in a vibrant and colorful urban environment. </div>
+              </div>
+            </li>
             </ul>
           </div>
         </div>
